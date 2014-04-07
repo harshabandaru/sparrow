@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20sp"
+        android:textSize="20sp"
+        android:text="Payment" />
+
+    <Button
+        android:id="@+id/bCreditCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Credit Card" />
+
+    <Button
+        android:id="@+id/bDebitCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debit Card" />
+
+    <Button
+        android:id="@+id/bNetBanking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Net Banking" />
+
+</LinearLayout>
